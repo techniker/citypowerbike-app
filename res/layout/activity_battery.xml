@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="371dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/lblBatteryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="5dp"
+        android:text="@string/lblBatteryTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gui_text" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="51dp"
+        android:layout_x="368dp"
+        android:layout_y="22dp"
+        android:src="@drawable/imgschuetze" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="96dp"
+        android:text="@string/lblStromstaerkeGesamt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="76dp"
+        android:text="@string/lblSchuetzstellungen"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="99dp"
+        android:src="@drawable/imgschuetzestatus" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="456dp"
+        android:layout_y="81dp"
+        android:text="@string/lblSchuetze1"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="456dp"
+        android:layout_y="98dp"
+        android:text="@string/lblSchuetze2"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="158dp"
+        android:text="@string/lblZelle1"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtSchuetze2"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_x="480dp"
+        android:layout_y="97dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtSchuetzeAus"
+        android:textColor="@color/gui_text" android:autoText="false" android:cursorVisible="false">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtSchuetze1"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_x="480dp"
+        android:layout_y="78dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtSchuetzeAus"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="182dp"
+        android:text="@string/lblZelle2"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="208dp"
+        android:text="@string/lblZelle3"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="232dp"
+        android:text="@string/lblZelle4"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtZelle1"
+        android:layout_width="54dp"
+        android:layout_height="21dp"
+        android:layout_x="68dp"
+        android:layout_y="156dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle2"
+        android:layout_width="54dp"
+        android:layout_height="21dp"
+        android:layout_x="68dp"
+        android:layout_y="180dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle3"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_x="68dp"
+        android:layout_y="206dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle4"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_x="68dp"
+        android:layout_y="230dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="158dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="184dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="208dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="232dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="72dp"
+        android:text="@string/lblBatterieGesamt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="128dp"
+        android:text="@string/lblSpannungsWerte"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="230dp"
+        android:text="@string/lblZelle8"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="158dp"
+        android:text="@string/lblZelle5"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="182dp"
+        android:text="@string/lblZelle6"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="206dp"
+        android:text="@string/lblZelle7"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtZelle6"
+        android:layout_width="61dp"
+        android:layout_height="21dp"
+        android:layout_x="220dp"
+        android:layout_y="180dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle5"
+        android:layout_width="60dp"
+        android:layout_height="21dp"
+        android:layout_x="220dp"
+        android:layout_y="156dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle7"
+        android:layout_width="60dp"
+        android:layout_height="21dp"
+        android:layout_x="220dp"
+        android:layout_y="204dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle8"
+        android:layout_width="59dp"
+        android:layout_height="21dp"
+        android:layout_x="220dp"
+        android:layout_y="228dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="157dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="181dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="230dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="206dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="330dp"
+        android:layout_y="158dp"
+        android:text="@string/lblZelle9"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="330dp"
+        android:layout_y="182dp"
+        android:text="@string/lblZelle10"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="452dp"
+        android:layout_y="158dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="452dp"
+        android:layout_y="182dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="452dp"
+        android:layout_y="206dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="452dp"
+        android:layout_y="228dp"
+        android:text="@string/lblmVolts"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="330dp"
+        android:layout_y="206dp"
+        android:text="@string/lblZelle11"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="330dp"
+        android:layout_y="230dp"
+        android:text="@string/lblZelle12"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtZelle9"
+        android:layout_width="62dp"
+        android:layout_height="21dp"
+        android:layout_x="388dp"
+        android:layout_y="156dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle10"
+        android:layout_width="62dp"
+        android:layout_height="21dp"
+        android:layout_x="388dp"
+        android:layout_y="180dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle11"
+        android:layout_width="60dp"
+        android:layout_height="21dp"
+        android:layout_x="388dp"
+        android:layout_y="204dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtZelle12"
+        android:layout_width="60dp"
+        android:layout_height="21dp"
+        android:layout_x="388dp"
+        android:layout_y="228dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtBatterieGesamt"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_x="180dp"
+        android:layout_y="74dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/txtStromstaerkeGesamt"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_x="180dp"
+        android:layout_y="98dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" android:cursorVisible="false"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="77dp"
+        android:text="@string/lblPercentage"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/TextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="456dp"
+        android:layout_y="116dp"
+        android:text="@string/lblSchuetze3"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtSchuetze3"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_x="480dp"
+        android:layout_y="114dp"
+        android:autoText="false"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtSchuetzeAus"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="99dp"
+        android:text="@string/lblmA"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblTemperatur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="46dp"
+        android:text="@string/lblTemperatur"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblGradcelsius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="49dp"
+        android:text="@string/lblGradCelsius"
+        android:textColor="@color/gui_text" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:layout_x="210dp"
+        android:layout_y="37dp"
+        android:src="@drawable/imgblizzard" />
+
+    <EditText
+        android:id="@+id/txtTemperatur"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_x="119dp"
+        android:layout_y="48dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" />
+
+</AbsoluteLayout>

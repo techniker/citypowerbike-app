@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  	
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="371dp"
+    android:screenOrientation="landscape" >
+
+    <ImageButton
+        android:id="@+id/btnBatterieInfo"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_x="485dp"
+        android:layout_y="14dp"
+        android:clickable="true"
+        android:onClick="@string/FeatureMethods"
+        android:src="@drawable/btnimgbatteryinfosymbolred" />
+
+    <ImageView
+        android:id="@+id/imgTachometer"
+        android:layout_width="393dp"
+        android:layout_height="250dp"
+        android:layout_x="72dp"
+        android:layout_y="29dp"
+        android:src="@drawable/imgtacho" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="205dp"
+        android:text="@string/gesamt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblGeschwindigkeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="177dp"
+        android:text="@string/geschwindigkeit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="234dp"
+        android:text="@string/trip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblSteigungGefaelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="14dp"
+        android:text="@string/steigung_gefaelle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblBatterie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="308dp"
+        android:layout_y="12dp"
+        android:text="@string/batterie"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <ImageView
+        android:id="@+id/imgBatterieStatus"
+        android:layout_width="98dp"
+        android:layout_height="56dp"
+        android:layout_x="380dp"
+        android:layout_y="0dp"
+        android:src="@drawable/img100percent" />
+
+    <EditText
+        android:id="@+id/txtSteigung"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="14dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtGeschwindigkeit"
+        android:layout_width="74dp"
+        android:layout_height="24dp"
+        android:layout_x="218dp"
+        android:layout_y="178dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtTrip"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_x="217dp"
+        android:layout_y="233dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtGesamt"
+        android:layout_width="91dp"
+        android:layout_height="26dp"
+        android:layout_x="214dp"
+        android:layout_y="204dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblKilometerProStunde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="287dp"
+        android:layout_y="179dp"
+        android:text="@string/kmprostunde"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblKilometerA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="206dp"
+        android:text="@string/kilometer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblKilometerB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="291dp"
+        android:layout_y="236dp"
+        android:text="@string/kilometer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/lblGrad"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="14dp"
+        android:text="@string/grad"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <ImageButton
+        android:id="@+id/btnTachoInfo"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_x="338dp"
+        android:layout_y="179dp"
+        android:clickable="true"
+        android:onClick="@string/FeatureMethods"
+        android:src="@drawable/btnimgtachoinfosymbolwhite" />
+
+    <ImageButton
+        android:id="@+id/btnReset"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_x="334dp"
+        android:layout_y="223dp"
+        android:clickable="true"
+        android:onClick="@string/FeatureMethods"
+        android:src="@drawable/imgreset" />
+
+    <ImageView
+        android:id="@+id/imgArrowSpeedometer"
+        android:layout_width="169dp"
+        android:layout_height="26dp"
+        android:layout_x="102dp"
+        android:layout_y="230dp"
+        android:src="@drawable/imgarrow"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/btnLichtAn"
+        android:layout_width="49dp"
+        android:layout_height="33dp"
+        android:layout_x="260dp"
+        android:layout_y="133dp"
+        android:clickable="true"
+        android:onClick="@string/FeatureMethods"
+        android:src="@drawable/btnlichtaus" />
+
+    <ImageButton
+        android:id="@+id/imgBtnExit"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_x="204dp"
+        android:layout_y="132dp"
+        android:src="@drawable/exitbutton" android:clickable="true" android:onClick="@string/FeatureMethods"/>
+
+</AbsoluteLayout>
+
+

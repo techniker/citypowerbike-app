@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">CityPowerBike</string>
+    <color name="gui_text">#FFFFFF</color>
+    <string name="ebike_title">CityPowerBike</string>
+    <string name="batterie">Batterie:</string>
+    <string name="steigung_gefaelle">Steigung/Gefälle:</string>
+    <string name="grad">°</string>
+    <string name="geschwindigkeit">Speed:</string>
+    <string name="gesamt">Gesamt:</string>
+    <string name="trip">Trip:</string>
+    <string name="kmprostunde">km/h</string>
+    <string name="kilometer">km</string>
+    <color name="txt_background">#000000</color>
+    <string name="FeatureMethods">onClickFeature</string>
+    <string name="lblAbout">Info</string>
+    <string name="txtField">0.0</string>
+    <string name="txtTest">100.0</string>
+    <string name="txtGesamtReset">0.0</string>
+    <string name="lblInfoTacho">Info Tacho</string>
+    <string name="lblTachoGeschwindigkeit">Geschwindigkeit</string>
+    <string name="lblTachoBeschleunigung">Beschleunigung</string>
+    <string name="lblaktuell">Aktuell:</string>
+    <string name="lblDurchschnitt">Durchschnitt:</string>
+    <string name="lblMaximum">Maximum:</string>
+    <string name="lblMeterPerSeconds">m/s</string>
+    <string name="lblQuadrat">2</string>
+    <string name="txtBeschleunigung">00.0000</string>
+    <string name="title_about">About</string>
+    <string name="about_string">(C) Copyright 2012 by Sixtopia.net</string>
+    <string name="lblBatteryTitle">Info Batterie</string>
+    <string name="lblBatterieGesamt">Ladestatus Batterie:</string>
+    <string name="lblPercentage">%</string>
+    <string name="lblStromstaerkeGesamt">Strom gesamt:</string>
+    <string name="lblmA">mA</string>
+    <string name="lblmVolts">mV</string>
+    <string name="lblSchuetzstellungen">Schütze:</string>
+    <string name="lblSchuetze1">K1:</string>
+    <string name="lblSchuetze2">K2:</string>
+    <string name="lblSchuetze3">K3:</string>
+    <string name="lblSpannungsWerte">Spannungen:</string>
+    <string name="lblZelle1">Zelle 1:</string>
+    <string name="lblZelle2">Zelle 2:</string>
+    <string name="lblZelle3">Zelle 3:</string>
+    <string name="lblZelle4">Zelle 4:</string>
+    <string name="lblZelle5">Zelle 5:</string>
+    <string name="lblZelle6">Zelle 6:</string>
+    <string name="lblZelle7">Zelle 7:</string>
+    <string name="lblZelle8">Zelle 8:</string>
+    <string name="lblZelle9">Zelle 9:</string>
+    <string name="lblZelle10">Zelle 10:</string>
+    <string name="lblZelle11">Zelle 11:</string>
+    <string name="lblZelle12">Zelle 12:</string>
+    <string name="txtSchuetzeEin">1</string>
+    <string name="txtSchuetzeAus">0</string>
+    <string name="lblTemperatur">Temperatur:</string>
+    <string name="txtTemperatur">0.0</string>
+    <string name="lblGradCelsius">° C</string>
+    
+</resources>

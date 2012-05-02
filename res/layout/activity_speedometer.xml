@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="371dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="6dp"
+        android:text="@string/lblInfoTacho"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gui_text" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="311dp"
+        android:layout_y="48dp"
+        android:text="@string/lblTachoBeschleunigung"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="48dp"
+        android:text="@string/lblTachoGeschwindigkeit"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="160dp"
+        android:text="@string/lblDurchschnitt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="120dp"
+        android:text="@string/lblaktuell"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="199dp"
+        android:text="@string/lblMaximum"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="256dp"
+        android:layout_y="162dp"
+        android:text="@string/lblDurchschnitt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="306dp"
+        android:layout_y="119dp"
+        android:text="@string/lblaktuell"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="203dp"
+        android:text="@string/lblMaximum"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtAktuellGeschwindigkeit"
+        android:layout_width="56dp"
+        android:layout_height="22dp"
+        android:layout_x="124dp"
+        android:layout_y="120dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtDurchschnittGeschwindigkeit"
+        android:layout_width="56dp"
+        android:layout_height="22dp"
+        android:layout_x="126dp"
+        android:layout_y="160dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtMaximumGeschwindigkeit"
+        android:layout_width="56dp"
+        android:layout_height="22dp"
+        android:layout_x="126dp"
+        android:layout_y="201dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtField"
+        android:textColor="@color/gui_text"/>
+
+    <EditText
+        android:id="@+id/txtAktuellBeschleunigung"
+        android:layout_width="79dp"
+        android:layout_height="38dp"
+        android:layout_x="376dp"
+        android:layout_y="112dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtBeschleunigung"
+        android:textColor="@color/gui_text"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_x="450dp"
+        android:layout_y="112dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/lblMeterPerSeconds"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_x="482dp"
+        android:layout_y="114dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/lblQuadrat"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/txtDurchschnittBeschleunigung"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_x="376dp"
+        android:layout_y="156dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtBeschleunigung"
+        android:textColor="@color/gui_text"/>
+
+    <EditText
+        android:id="@+id/txtMaximumBeschleunigung"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="376dp"
+        android:layout_y="196dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/txtBeschleunigung"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_x="450dp"
+        android:layout_y="154dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/lblMeterPerSeconds"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_x="450dp"
+        android:layout_y="194dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/lblMeterPerSeconds"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_x="486dp"
+        android:layout_y="152dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/lblQuadrat"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText04"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_x="486dp"
+        android:layout_y="192dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/lblQuadrat"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText05"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_x="172dp"
+        android:layout_y="113dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/kmprostunde"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText06"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_x="171dp"
+        android:layout_y="154dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/kmprostunde"
+        android:textColor="@color/gui_text" />
+
+    <EditText
+        android:id="@+id/EditText07"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_x="171dp"
+        android:layout_y="193dp"
+        android:background="@color/txt_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:text="@string/kmprostunde"
+        android:textColor="@color/gui_text" />
+
+</AbsoluteLayout>
