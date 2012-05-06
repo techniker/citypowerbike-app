@@ -108,7 +108,7 @@
         android:editable="false"
         android:text="@string/txtField"
         android:textColor="@color/gui_text" />
-
+
     <EditText
         android:id="@+id/txtTrip"
         android:layout_width="90dp"
@@ -121,10 +121,9 @@
         android:editable="false"
         android:text="@string/txtField"
         android:textColor="@color/gui_text" >
-
         <requestFocus />
     </EditText>
-
+
     <EditText
         android:id="@+id/txtGesamt"
         android:layout_width="91dp"
