@@ -1,6 +1,6 @@
 package com.android.sixtopia.citypowerbike.data.abcp.bluetooth;
 
-import java.io.Closeable;
+
 import java.io.IOException;
 
 import android.os.Handler;

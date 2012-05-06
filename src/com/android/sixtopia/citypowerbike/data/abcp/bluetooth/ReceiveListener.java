@@ -2,8 +2,6 @@ package com.android.sixtopia.citypowerbike.data.abcp.bluetooth;
 /**
  * This Interface must be implemented to receive complete byte-Frames from the {@code BluetoothStreamReader}. <br>
  * It contains a Callback-Method for the object which will implement this Interface.
- * @author Max Werner
- *
  */
 public interface ReceiveListener {
 	/**

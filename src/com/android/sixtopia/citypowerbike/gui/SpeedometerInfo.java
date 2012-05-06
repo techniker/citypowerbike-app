@@ -12,10 +12,7 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.TextView;
 
-/**
- * 
- *
- */
+
 public class SpeedometerInfo extends Activity implements DataListener{
 	
 	private Initialize initialize;
@@ -169,12 +166,10 @@ public class SpeedometerInfo extends Activity implements DataListener{
 	    Log.d(Tags.LOG_TAG, msg);
 	}
 	
-	/**
-	 * 
-	 * @author Joerg Sablottny
-	 * 
-	 * This class is needed to update the UI through Data Changes (Callbacks) and avoid Thread Exceptions 
-	 */
+	
+	 
+	 // This class is needed to update the UI through Data Changes (Callbacks) and avoid Thread Exceptions 
+	 
 	private class RefreshHandler extends Handler{
 		
 		 @Override  

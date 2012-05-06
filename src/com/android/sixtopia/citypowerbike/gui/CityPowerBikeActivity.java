@@ -143,19 +143,6 @@ public class CityPowerBikeActivity extends Activity implements GpsListener, Data
 		txtTrip.setText(String.valueOf(initialize.getDataHandler().getDisplay().getTrip()));
 		txtCurrentSpeed.setText(String.valueOf(initialize.getDataHandler().getDisplay().getCurrentSpeed()));
 		
-		//light on or off?
-//		if (lightStatus){
-//			lichtNeuAn = (ImageButton)findViewById(R.id.btnLichtAn);
-//			lichtNeuAn.setImageResource(R.drawable.btnlichtan);
-//			lichtNeuAn.setId(100);
-//		}
-//		else if (!lightStatus){
-//			lichtNeuAn.setId(100);
-//			lichtNeuAus = (ImageButton)findViewById(100);
-//			lichtNeuAus.setImageResource(R.drawable.btnlichtaus);
-//			lichtNeuAus.setId(R.id.btnLichtAn);
-//		}
-		
 		//Battery Status
 		if((intBatteryStatus <= 100) && (intBatteryStatus > 80)){
 			batteryStatus.setImageResource(R.drawable.img100percent);
@@ -435,7 +422,7 @@ public class CityPowerBikeActivity extends Activity implements GpsListener, Data
 	    	   break;
 	    
 	      case R.id.btnLichtAn :
-	    	   //Licht anschalten und Button �ndern
+	    	   //Licht anschalten und Button aendern
 	    	   trace("Turns light on");
 	    	   
 	    	   lichtAn = (ImageButton)findViewById(R.id.btnLichtAn);
@@ -603,12 +590,8 @@ public class CityPowerBikeActivity extends Activity implements GpsListener, Data
 	        }
 	 }
 	
-	/**
-	 * 
-	 * @author Joerg Sablottny
-	 * 
-	 * This class is needed to update the UI through Data Changes (Callbacks) and avoid Thread Exceptions 
-	 */
+	// This class is needed to update the UI through Data Changes (Callbacks) and avoid Thread Exceptions 
+	
 	private class RefreshHandler extends Handler{
 		
 		 @Override  
@@ -650,8 +633,6 @@ public class CityPowerBikeActivity extends Activity implements GpsListener, Data
 			
 				canvas.restore();
 			}
-
-			
 	 }*/
 
 	/**
@@ -667,9 +648,5 @@ public class CityPowerBikeActivity extends Activity implements GpsListener, Data
 		    	mRedrawHandler.handleMessage(message);
 		    }
 		});
-		
-	}
-
-	
-	 	
+	}	
 }

@@ -223,12 +223,9 @@ public class BatteryInfo extends Activity implements DataListener{
 	}
 
 	
-	/**
-	 * 
-	 * @author Joerg Sablottny
-	 * 
-	 * This class is needed to update the UI through Data Changes (Callbacks) and avoid Thread Exceptions 
-	 */
+
+	 // This class is needed to update the UI through Data Changes (Callbacks) and avoid Thread Exceptions 
+
 	private class RefreshHandler extends Handler{
 		
 		 @Override  
